@@ -71,12 +71,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 4px solid white;
   transition: all 0.5s;
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(0deg);
 }
 
 .tag {
@@ -196,6 +196,10 @@ a.social:hover {
   clear: both;
 }
 
+.image {
+  width: 150px;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   .flex {
@@ -233,3 +237,4 @@ a.social:hover {
     margin: 40px auto;
   }
 }
+
