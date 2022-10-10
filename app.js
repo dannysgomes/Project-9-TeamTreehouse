@@ -24,7 +24,6 @@ function closeModal(modal) {
 }
 
 function displayProjects(projectData) {
-  console.log("data", projectData);
   const projects = projectData;
   // store the project HTML as we create it
   let projectHTML = "";
@@ -34,15 +33,38 @@ function displayProjects(projectData) {
     let title = project.title;
     let img = project.imgUrl;
     let technologies = project.technologies;
+    let skills = technologies.map((skill) => {
+      const cleanSkill = skill.toLowerCase();
+      let color;
+      switch (true) {
+        case cleanSkill === "html":
+          color = "#0399ff";
+          break;
+        case cleanSkill === "css":
+          color = "#ff9904";
+          break;
+        case cleanSkill === "javascript":
+          color = "green";
+          break;
+        case cleanSkill === "sass":
+          color = "purple";
+          break;
+        default:
+          color = "#0399ff";
+      }
+      return `<li style="background-color:${color}">${skill}</li>`;
+    });
+    console.log("skills", skills);
 
     // template literals make this so much cleaner!
+    // Lookup Array.join(), the join method
     projectHTML += `
     <div class="card pcard">
           <h2>Project ${projectNumber}</h2>
           <h3>${title}</h3>
           <img class="classthumb" src="${img}" />
           <ul class="skills">
-            
+            ${skills.join(" ")} 
           </ul>
           <button data-modal-target="#modal">More Info</button>
         </div>

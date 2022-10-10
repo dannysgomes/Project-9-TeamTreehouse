@@ -40,7 +40,7 @@ const data = [
     imgUrl: "./images/Proj5.png",
     description:
       "We created an interactive image gallery.  We also added a search feature to filter through photos.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "Javascript"],
     projectUrl: "",
     gitHubUrl: "",
   },
@@ -57,7 +57,7 @@ const data = [
     title: "WebApp Dashboard",
     imgUrl: "./images/Proj7.png",
     description:
-      "We built an interactive dashboard using other web techniques including SVG graphics and JavaScript programming.  We created charts, tables, and other user interface components focusing on interactivity and usability.",
+      "We built an interactive dashboard using other web techniques including SVG graphics and Javascript programming.  We created charts, tables, and other user interface components focusing on interactivity and usability.",
     technologies: ["HTML", "CSS", "Javascript"],
     projectUrl: "",
     gitHubUrl: "",
