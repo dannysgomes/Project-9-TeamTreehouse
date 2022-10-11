@@ -125,10 +125,9 @@ ol {
   border-right: 4px solid #ccc;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  
 }
 
-.modal{
+.modal {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -139,11 +138,11 @@ ol {
   z-index: 10;
   background-color: white;
   width: 500px;
-  max-width: 80%; 
+  max-width: 80%;
 }
 
 .modal.active {
-  transform: translate(-50%, -50%) scale(1)
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .modal-header {
@@ -169,8 +168,6 @@ ol {
   color: white;
 }
 
-
-
 .modal-body {
   padding: 10px 15px;
 }
@@ -192,7 +189,7 @@ ol {
   border-right: 2px solid rgb(134, 132, 132);
   border-bottom: 2px solid rgb(134, 132, 132);
   display: inline-block;
-  background:rgb(45, 77, 49);
+  background: rgb(45, 77, 49);
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -210,7 +207,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
 
@@ -235,7 +232,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width:auto;
+  width: auto;
   justify-content: space-around;
 }
 
@@ -274,18 +271,16 @@ ul.skills {
   background-color: green;
 }
 
-.modal-header {  
+.modal-header {
   background: black;
   color: white;
 }
-
-
 
 .links-wrapper {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background:#ccc;
+  background: #ccc;
 }
 
 footer {
@@ -315,7 +310,6 @@ ul {
 }
 
 .copyright {
-
 }
 
 a.social {
@@ -362,13 +356,11 @@ a.social:hover {
   .flex {
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
     max-width: 1200px;
     justify-content: space-around;
     margin: 0 auto;
   }
-
-
 
   header {
     min-height: 450px;
@@ -395,7 +387,5 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    
   }
 }
-
