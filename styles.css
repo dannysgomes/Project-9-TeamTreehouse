@@ -175,6 +175,33 @@ ol {
   padding: 10px 15px;
 }
 
+.modal-button {
+  border: none;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  border-radius: 6px;
+  background: rgb(114, 178, 51);
+  display: inline-block;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.links {
+  border-radius: 6px;
+  border-right: 2px solid rgb(134, 132, 132);
+  border-bottom: 2px solid rgb(134, 132, 132);
+  display: inline-block;
+  background:rgb(45, 77, 49);
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+a:hover {
+  color: #beff33;
+}
+
 #overlay {
   position: fixed;
   opacity: 0;
@@ -247,9 +274,18 @@ ul.skills {
   background-color: green;
 }
 
-.modal-header {
+.modal-header {  
   background: black;
   color: white;
+}
+
+
+
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background:#ccc;
 }
 
 footer {
