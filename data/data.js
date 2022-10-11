@@ -6,7 +6,7 @@ const data = [
       "We created a custom personal online profile page by adding graphics and custom text.  We learned the importance of using Cascading Style Sheets",
     technologies: ["HTML", "CSS"],
     projectUrl: "",
-    gitHubUrl: "",
+    githubUrl: "",
   },
   {
     title: "Mobile-first Responsive Layout",
@@ -15,7 +15,7 @@ const data = [
       "We designed a webpage that looked and functioned well on multiple screen sizes.  We learned the importance of the mobile-fisrt approach.",
     technologies: ["HTML", "CSS"],
     projectUrl: "",
-    gitHubUrl: "",
+    githubUrl: "",
   },
   {
     title: "An Online Registration Form",
@@ -24,7 +24,7 @@ const data = [
       "We designed and styled a form and built a repsonsive, mobile-first registration form using a multitude of HTML form elements.",
     technologies: ["HTML", "CSS"],
     projectUrl: "",
-    gitHubUrl: "",
+    githubUrl: "",
   },
   {
     title: "Web Style Guide",
@@ -33,7 +33,7 @@ const data = [
       "We learned the importance of SASS and how it helps us style web pages with CSS easier and faster",
     technologies: ["HTML", "CSS", "SASS"],
     projectUrl: "",
-    gitHubUrl: "",
+    githubUrl: "",
   },
   {
     title: "An Interactive Photo Gallery",
@@ -42,7 +42,7 @@ const data = [
       "We created an interactive image gallery.  We also added a search feature to filter through photos.",
     technologies: ["HTML", "CSS", "Javascript"],
     projectUrl: "",
-    gitHubUrl: "",
+    githubUrl: "",
   },
   {
     title: "Game Show App",
@@ -51,7 +51,7 @@ const data = [
       "We created a random word guessing game.  There is a counter built into the application to keep score of incorrect guesses.",
     technologies: ["HTML", "CSS", "Javascript"],
     projectUrl: "",
-    gitHubUrl: "",
+    githubUrl: "",
   },
   {
     title: "WebApp Dashboard",
@@ -60,7 +60,7 @@ const data = [
       "We built an interactive dashboard using other web techniques including SVG graphics and Javascript programming.  We created charts, tables, and other user interface components focusing on interactivity and usability.",
     technologies: ["HTML", "CSS", "Javascript"],
     projectUrl: "",
-    gitHubUrl: "",
+    githubUrl: "",
   },
   {
     title: "API for Employee Directory",
@@ -69,6 +69,6 @@ const data = [
       "We created an employee directory by communicating with a third-party API.  We also created a modal which displayed the specific employee's contact information.",
     technologies: ["HTML", "CSS", "Javascript"],
     projectUrl: "",
-    gitHubUrl: "",
+    githubUrl: "",
   },
 ];

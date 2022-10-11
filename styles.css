@@ -166,7 +166,10 @@ ol {
   background: none;
   font-size: 1.25rem;
   font-weight: bold;
+  color: white;
 }
+
+
 
 .modal-body {
   padding: 10px 15px;
@@ -230,6 +233,23 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+}
+
+.htmlColor {
+  background-color: #0399ff;
+}
+
+.cssColor {
+  background-color: #ff9904;
+}
+
+.javaColor {
+  background-color: green;
+}
+
+.modal-header {
+  background: black;
+  color: white;
 }
 
 footer {
@@ -306,6 +326,7 @@ a.social:hover {
   .flex {
     display: flex;
     flex-direction: column;
+    align-items: center ;
     max-width: 1200px;
     justify-content: space-around;
     margin: 0 auto;
@@ -338,7 +359,7 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    margin: 40px auto;
+    
   }
 }
 
