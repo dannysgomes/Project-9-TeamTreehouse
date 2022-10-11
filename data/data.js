@@ -5,8 +5,8 @@ const data = [
     description:
       "We created a custom personal online profile page by adding graphics and custom text.  We learned the importance of using Cascading Style Sheets",
     technologies: ["HTML", "CSS"],
-    projectUrl: "",
-    githubUrl: "",
+    projectUrl: "https://dannysgomes.github.io/Project-1-TeamTreehouse/",
+    githubUrl: "https://github.com/dannysgomes/Project-1-TeamTreehouse",
   },
   {
     title: "Mobile-first Responsive Layout",

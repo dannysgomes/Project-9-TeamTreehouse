@@ -37,8 +37,8 @@ function openModal(index) {
   </div>
   <div class="modal-body">${description}</div>
   <div class="links-wrapper">
-    <a href="${projectUrl}">View Project</a>
-    <a href="${githubUrl}">View Code</a>
+    <a href="${projectUrl}" target="_blank">View Project</a>
+    <a href="${githubUrl}" target="_blank">View Code</a>
   </div>`;
   modalContainer.innerHTML = modalBody;
 }
