@@ -286,6 +286,7 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
+  padding-top: 70px;
 }
 
 footer .copyright {
